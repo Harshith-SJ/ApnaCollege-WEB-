@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio in html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execise portfolio</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+            text-align: center;
+            border-collapse: collapse;
+            margin:10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="About">About</a></li>
+                <li><a href="Projects">Projects</a></li>
+                <li><a href="Contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="About Me">
+                <h2>About Me</h2>
+                <p>Myself Harshith SJ,Studing in 3rd year at citech</p>
+        </section>
+        <section>
+            <h2>Projects list</h2>
+            <ol>
+                <li><h3><a href="Project1">project1</a></h3>
+                    <p>This is my Project1</p>
+                </li>
+                <li><h3><a href="project2">project2</a></h3>
+                    <p>This is my project 2</p>
+                </li>
+                <li><a href="project3">project3</a></li></ol></h3>
+                    <p>This is my project3</p>
+                </li>
+            </ol>
+        </section>
+        <section id="Skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>Html</li>
+            </ul>
+        </section>
+        <section id="Education">
+                <table>
+                    <caption>Education</caption>
+                    <thead>
+                        <tr>
+                            <th>Institution name</th>
+                            <th>Degree</th>
+                            <th>YearofGraduation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sree Rama High School</td>
+                            <td>SSLC</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>Sarvodaya PU college</td>
+                            <td>PUC</td>
+                            <td>2022</td>
+                        </tr>
+                        <tr>
+                            <td>Cambridge Institute of Technology</td>
+                            <td>CSE</td>
+                            <td>2026</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+        <section id="Contact_visitor">
+            <h2>To contact me fill the form</h2>
+            <form action="#store" target="_blank" method="post">
+                <label for="username">Enter username : </label>
+                <input type="text" name="username" id="username">
+                <br>
+                <label for="email">Enter email: </label>
+                <input type="email" name="email"  id="email">
+                <br>
+                <label for="image">Upload Image</label>
+                <input type="file" name="user_image" id="image" >
+                <br>
+                <label for="Feedback ">Enter Feedback</label>
+                <textarea name="Feedback" id="Feedback" placeholder="Feedback here"></textarea>
+                <br>
+                <label for="country">Choose the country</label>
+                <select name="country" id="country">
+                    <option value="India">India</option>
+                    <option value="Foreigner">Foreigner</option>
+                </select>
+                <h3>Reason for Contact</h3>
+                <br>
+                <input type="radio" id="project" name="reason" >
+                <label for="project">For project</label>
+                <br>
+                <input type="radio" name="reason" id="other_reason">
+                <label for="other_reason">Other_reason</label>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h2>Contacts</h2>
+            <ul>
+                <li><a href="github">GitHub</a></li>
+                <li><a href="Linkdein">Linkdein</a></li>
+                <li><a href="instagram">Instagram</a></li>
+            </ul>
+    </footer>
+</body>
+
+</html>
